@@ -3114,7 +3114,7 @@
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="set" />
                                       <option name="possibleAnswer" value="set(v: Int?) {&#10;            field = v&#10;            counter++&#10;        }" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -3431,9 +3431,9 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Function literals with receiver" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234756" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.inEquals&#10;&#10;class TestExtensionFunctionLiterals {&#10;    @Test fun testIsOddAndIsEven() {&#10;        Assert.assertEquals(&quot;The functions 'isOdd' and 'isEven' should be implemented correctly&quot;.inEquals(),&#10;                listOf(false, true, true), task())&#10;&#10;    }&#10;}" />
@@ -3461,13 +3461,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="66" />
+                                      <option name="length" value="17" />
+                                      <option name="offset" value="64" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="this % 2 == 0" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
@@ -3485,19 +3485,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="112" />
+                                      <option name="length" value="13" />
+                                      <option name="offset" value="119" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="this % 2 != 0" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -3524,9 +3524,9 @@
                       </option>
                       <option name="index" value="2" />
                       <option name="name" value="String and map builders" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234757" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.inEquals&#10;&#10;class TestStringAndMapBuilders {&#10;    @Test fun testBuildMap() {&#10;        val map: Map&lt;Int, String&gt; = buildMap {&#10;            put(0, &quot;0&quot;)&#10;            for (i in 1..10) {&#10;                put(i, &quot;$i&quot;)&#10;            }&#10;        }&#10;        val expected = hashMapOf&lt;Int, String&gt;()&#10;        for (i in 0..10) {&#10;            expected[i] = &quot;$i&quot;&#10;        }&#10;        Assert.assertEquals(&quot;Map should be filled with the right values&quot;.inEquals(), expected, map)&#10;    }&#10;}" />
@@ -3554,19 +3554,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="10" />
-                                      <option name="offset" value="26" />
+                                      <option name="length" value="154" />
+                                      <option name="offset" value="20" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="/* TODO */" />
                                       <option name="possibleAnswer" value="fun &lt;K, V&gt; buildMap(build: HashMap&lt;K, V&gt;.() -&gt; Unit): Map&lt;K, V&gt; {&#10;    val map = HashMap&lt;K, V&gt;()&#10;    map.build()&#10;    return map&#10;}" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -3593,9 +3593,9 @@
                       </option>
                       <option name="index" value="3" />
                       <option name="name" value="The function apply" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234758" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import java.util.HashMap&#10;import koans.util.inEquals&#10;&#10;class TestTheFunctionWith {&#10;    @Test fun testCreateString() {&#10;        val s = createString()&#10;        val sb = StringBuilder()&#10;        sb.append(&quot;Numbers: &quot;)&#10;        for (i in 1..10) {&#10;            sb.append(i)&#10;        }&#10;        Assert.assertEquals(&quot;String should be built&quot;.inEquals(), sb.toString(), s)&#10;    }&#10;&#10;    @Test fun testCreateMap() {&#10;        val map = createMap()&#10;        val expected = HashMap&lt;Int, String&gt;()&#10;        for (i in 0..10) {&#10;            expected[i] = &quot;$i&quot;&#10;        }&#10;        Assert.assertEquals(&quot;Map should be filled with the right values&quot;.inEquals(), expected, map)&#10;    }&#10;}&#10;" />
@@ -3623,19 +3623,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="40" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="64" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="f(); return this" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -3662,9 +3662,9 @@
                       </option>
                       <option name="index" value="4" />
                       <option name="name" value="Html builders" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234759" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestHtmlBuilders {&#10;    @Test fun productTableIsFilled() {&#10;        val result = renderProductTable()&#10;        Assert.assertTrue(&quot;Product table should contain the corresponding data&quot;, result.contains(&quot;cactus&quot;))&#10;    }&#10;&#10;    @Test fun productTableIsColored() {&#10;        val result = renderProductTable()&#10;        Assert.assertTrue(&quot;Product table should be colored&quot;, result.contains(&quot;bgcolor&quot;))&#10;    }&#10;}&#10;" />
@@ -3692,13 +3692,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="10" />
-                                      <option name="offset" value="84" />
+                                      <option name="length" value="26" />
+                                      <option name="offset" value="83" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="/* TODO */" />
                                       <option name="possibleAnswer" value="(color = getTitleColor())" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
@@ -3716,19 +3716,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="389" />
+                                      <option name="length" value="492" />
+                                      <option name="offset" value="391" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="for ((index, product) in products.withIndex()) {&#10;                tr {&#10;                    td (color = getCellColor(index, 0)) {&#10;                        text(product.description)&#10;                    }&#10;                    td (color = getCellColor(index, 1)) {&#10;                        text(product.price)&#10;                    }&#10;                    td (color = getCellColor(index, 2)) {&#10;                        text(product.popularity)&#10;                    }&#10;                }&#10;            }" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -3800,9 +3800,9 @@
                       </option>
                       <option name="index" value="5" />
                       <option name="name" value="Builders how it works" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234760" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Test&#10;import org.junit.Assert&#10;import Answer.*&#10;&#10;class TestBuildersHowItWorks {&#10;    @Test fun testBuildersQuiz() {&#10;        if (answers.values.toSet() == setOf(null)) {&#10;            Assert.fail(&quot;Please specify your answers!&quot;)&#10;        }&#10;        val correctAnswers = mapOf(22 - 20 to b, 1 + 3 to c, 11 - 8 to b, 79 - 78 to c)&#10;        if (correctAnswers != answers) {&#10;            val incorrect = (1..4).filter { answers[it] != correctAnswers[it] }&#10;            Assert.fail(&quot;Your answers are incorrect! $incorrect&quot;)&#10;        }&#10;    }&#10;}" />
@@ -3830,19 +3830,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="42" />
-                                      <option name="offset" value="91" />
+                                      <option name="length" value="30" />
+                                      <option name="offset" value="107" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="1 to null, 2 to null, 3 to null, 4 to null" />
                                       <option name="possibleAnswer" value="1 to c, 2 to b, 3 to b, 4 to c" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -3882,9 +3882,9 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Generic functions" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234761" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import java.util.*&#10;import koans.util.toMessageInEquals&#10;&#10;class TestGenericFunctions {&#10;    @Test fun testPartitionWordsAndLines() {&#10;        partitionWordsAndLines()&#10;&#10;        val (words, lines) = listOf(&quot;a&quot;, &quot;a b&quot;, &quot;c&quot;, &quot;d e&quot;).&#10;                partitionTo(ArrayList&lt;String&gt;(), ArrayList()) { s -&gt; !s.contains(&quot; &quot;) }&#10;        Assert.assertEquals(&quot;partitionTo&quot;.toMessageInEquals(), listOf(&quot;a&quot;, &quot;c&quot;), words)&#10;        Assert.assertEquals(&quot;partitionTo&quot;.toMessageInEquals(), listOf(&quot;a b&quot;, &quot;d e&quot;), lines)&#10;    }&#10;&#10;    @Test fun testPartitionLettersAndOtherSymbols() {&#10;        partitionLettersAndOtherSymbols()&#10;&#10;        val (letters, other) = setOf('a', '%', 'r', '}').&#10;                partitionTo(HashSet&lt;Char&gt;(), HashSet()) { c -&gt; c in 'a'..'z' || c in 'A'..'Z'}&#10;        Assert.assertEquals(&quot;partitionTo&quot;.toMessageInEquals(), setOf('a', 'r'), letters)&#10;        Assert.assertEquals(&quot;partitionTo&quot;.toMessageInEquals(), setOf('%', '}'), other)&#10;    }&#10;}" />
@@ -3912,19 +3912,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="26" />
+                                      <option name="length" value="322" />
                                       <option name="offset" value="20" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="fun partitionTo() = TODO()" />
                                       <option name="possibleAnswer" value="fun &lt;T, C: MutableCollection&lt;T&gt;&gt; Collection&lt;T&gt;.partitionTo(first: C, second: C, predicate: (T) -&gt; Boolean): Pair&lt;C, C&gt; {&#10;    for (element in this) {&#10;        if (predicate(element)) {&#10;            first.add(element)&#10;        } else {&#10;            second.add(element)&#10;        }&#10;    }&#10;    return Pair(first, second)&#10;}" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
